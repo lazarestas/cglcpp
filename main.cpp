@@ -6,7 +6,7 @@
 using namespace std;
 
 //let's fix the field dimensions 4 now
-const int FIELDMAX = 10;
+const int FIELDMAX = 4;
 
 //Cell is the smallest element on the field
 struct Cell{
@@ -19,7 +19,7 @@ ostream& operator << (ostream &os, const Cell &p){
     return os << p.cstate;
 }
 
-void PrintDaField(Cell arr[FIELDMAX][FIELDMAX],const int max){
+void PrintDaField(Cell** arr,const int max){
     cout << "guess its start of the field" << endl;
     for (int i = 0; i<max;i++){
         for (int j = 0; j<max;j++){
@@ -27,7 +27,29 @@ void PrintDaField(Cell arr[FIELDMAX][FIELDMAX],const int max){
         }
         cout << endl;
     }
+    for (int i = 0; i<max;i++){
+        for (int j = 0; j<max;j++){
+            cout << arr[i][j].posx << " " << arr[i][j].posy << endl;
+        }
+        cout << endl;
+    }
     cout << "guess its end of the field" << endl;
+}
+
+Cell** CreateDefautArr(const int max){
+    Cell **Cellarr = new Cell*[max];
+        for (int i=0;i<max;i++){
+            Cellarr[i]=new Cell[max];
+            for (int j = 0; j<max;j++){
+                Cellarr[i][j].cstate=0;
+                Cellarr[i][j].posx=i+1;
+                Cellarr[i][j].posy=j+1;
+            }
+        }
+    Cellarr[1][1].cstate = 1;
+    Cellarr[1][2].cstate = 1;
+    Cellarr[2][1].cstate = 1;
+    return Cellarr;
 }
 
 void MenuControlsLines(){
@@ -41,12 +63,7 @@ void MenuControlsLines(){
 int main() {
     cout << "there is a start to anything(placeholder)" << endl;
     //there we set up cell array Cellarr
-    Cell Cellarr[FIELDMAX][FIELDMAX];
-    for (int i = 0; i<FIELDMAX;i++){
-        for (int j = 0; j<FIELDMAX;j++){
-        Cellarr[i][j].cstate=0;
-        }
-    }
+    Cell** Cellarr = CreateDefautArr(FIELDMAX);
     char c;
 
     while(toupper(c)!='E'){
