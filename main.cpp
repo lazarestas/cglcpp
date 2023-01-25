@@ -8,12 +8,13 @@ using namespace std;
 
 //let's fix the field dimensions 4 now
 const int FIELDMAX = 10;
+const int FIELDSIZE = FIELDMAX-1;
 
 //Cell is the smallest element on the field only 4 bytes kinda cool
 struct Cell{
     //state of cell: 0 is dead 1 is alive
     int cstate:2;
-    int checked:2;
+//    int checked:2;
     //represents the count of neighboring cells alive min 0 FIELDMAX 8 then 4 bits necessary
     int ccount:4;
 
@@ -71,53 +72,94 @@ Cell** CreateDefautArr(){
 }
 
 void Upvote(Cell** arr, int i, int j){
-    if (i==0) {
-        if (j==0){
-            //top left corner
-            arr[FIELDMAX][FIELDMAX].ccount++;
-            arr[FIELDMAX][0].ccount++;
-            arr[FIELDMAX][1].ccount++;
-            arr[0][FIELDMAX].ccount++;
-            arr[0][1].ccount++;
-            arr[1][FIELDMAX].ccount++;
-            arr[1][0].ccount++;
-            arr[1][1].ccount++;
-        } else if (j==FIELDMAX){
-            //top right corner
-            arr[FIELDMAX][FIELDMAX - 1].ccount++;
-            arr[FIELDMAX][FIELDMAX].ccount++;
-            arr[FIELDMAX][0].ccount++;
-            arr[0][FIELDMAX - 1].ccount++;
-            arr[0][0].ccount++;
-            arr[1][FIELDMAX - 1].ccount++;
-            arr[1][FIELDMAX].ccount++;
-            arr[1][0].ccount++;
-        }
-    } else if (i == FIELDMAX) {
-        if (j==0){
-            //bottom left corner
-            arr[FIELDMAX-1][FIELDMAX].ccount++;
-            arr[FIELDMAX][FIELDMAX].ccount++;
-            arr[0][FIELDMAX].ccount++;
-            arr[0][0].ccount++;
-            arr[0][1].ccount++;
-            arr[FIELDMAX-1][0].ccount++;
-            arr[FIELDMAX-1][1].ccount++;
-            arr[FIELDMAX][1].ccount++;
-        } else if (j==FIELDMAX){
-            //bottom right corner
-            arr[FIELDMAX-1][0].ccount++;
-            arr[FIELDMAX][0].ccount++;
-            arr[0][FIELDMAX - 1].ccount++;
-            arr[0][FIELDMAX].ccount++;
-            arr[0][0].ccount++;
-            arr[FIELDMAX-1][FIELDMAX-1].ccount++;
-            arr[FIELDMAX-1][FIELDMAX].ccount++;
-            arr[FIELDMAX][FIELDMAX-1].ccount++;
-        }
-    } else if (i<0 or i>FIELDMAX or j<0 or j>FIELDMAX){
+    if (i<0 or i>FIELDSIZE or j<0 or j>FIELDSIZE){
         //error out of array
         cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << endl;
+        return;
+    } else if (i==0) {
+        if (j==0){
+            //top left corner
+            arr[FIELDSIZE][FIELDSIZE].ccount++;
+            arr[FIELDSIZE][0].ccount++;
+            arr[FIELDSIZE][1].ccount++;
+            arr[0][FIELDSIZE].ccount++;
+            arr[0][1].ccount++;
+            arr[1][FIELDSIZE].ccount++;
+            arr[1][0].ccount++;
+            arr[1][1].ccount++;
+        } else if (j==FIELDSIZE){
+            //top right corner
+            arr[FIELDSIZE][FIELDSIZE - 1].ccount++;
+            arr[FIELDSIZE][FIELDSIZE].ccount++;
+            arr[FIELDSIZE][0].ccount++;
+            arr[0][FIELDSIZE - 1].ccount++;
+            arr[0][0].ccount++;
+            arr[1][FIELDSIZE - 1].ccount++;
+            arr[1][FIELDSIZE].ccount++;
+            arr[1][0].ccount++;
+        } else if (j>0 and j<FIELDSIZE){
+            //top situation
+            arr[FIELDSIZE][j - 1].ccount++;
+            arr[FIELDSIZE][j].ccount++;
+            arr[FIELDSIZE][j + 1].ccount++;
+            arr[0][j - 1].ccount++;
+            arr[0][j + 1].ccount++;
+            arr[1][j - 1].ccount++;
+            arr[1][j].ccount++;
+            arr[1][j+1].ccount++;
+        }
+    } else if (i == FIELDSIZE) {
+        if (j==0){
+            //bottom left corner
+            arr[FIELDSIZE-1][FIELDSIZE].ccount++;
+            arr[FIELDSIZE][FIELDSIZE].ccount++;
+            arr[0][FIELDSIZE].ccount++;
+            arr[0][0].ccount++;
+            arr[0][1].ccount++;
+            arr[FIELDSIZE-1][0].ccount++;
+            arr[FIELDSIZE-1][1].ccount++;
+            arr[FIELDSIZE][1].ccount++;
+        } else if (j==FIELDSIZE){
+            //bottom right corner
+            arr[FIELDSIZE-1][0].ccount++;
+            arr[FIELDSIZE][0].ccount++;
+            arr[0][FIELDSIZE - 1].ccount++;
+            arr[0][FIELDSIZE].ccount++;
+            arr[0][0].ccount++;
+            arr[FIELDSIZE-1][FIELDSIZE-1].ccount++;
+            arr[FIELDSIZE-1][FIELDSIZE].ccount++;
+            arr[FIELDSIZE][FIELDSIZE-1].ccount++;
+        }   else if (j>0 and j<FIELDSIZE){
+            //bottom situation
+            arr[FIELDSIZE-1][j - 1].ccount++;
+            arr[FIELDSIZE-1][j].ccount++;
+            arr[FIELDSIZE-1][j + 1].ccount++;
+            arr[FIELDSIZE][j - 1].ccount++;
+            arr[FIELDSIZE][j + 1].ccount++;
+            arr[0][j - 1].ccount++;
+            arr[0][j].ccount++;
+            arr[0][j+1].ccount++;
+        }
+    } else if (j==0 and i>0 and i<FIELDSIZE){
+        //left side situation
+        arr[i-1][FIELDSIZE].ccount++;
+        arr[i-1][0].ccount++;
+        arr[i-1][1].ccount++;
+        arr[i][FIELDSIZE].ccount++;
+        arr[i][1].ccount++;
+        arr[i+1][FIELDSIZE].ccount++;
+        arr[i+1][0].ccount++;
+        arr[i+1][1].ccount++;
+    } else if (j == FIELDSIZE and i>0 and i<FIELDSIZE){
+        //right side sitution
+        arr[i-1][FIELDSIZE-1].ccount++;
+        arr[i-1][FIELDSIZE].ccount++;
+        arr[i-1][0].ccount++;
+        arr[i][FIELDSIZE-1].ccount++;
+        arr[i][0].ccount++;
+        arr[i+1][FIELDSIZE-1].ccount++;
+        arr[i+1][FIELDSIZE].ccount++;
+        arr[i+1][0].ccount++;
     } else {
         //inside array, no weird teleports
         arr[i-1][j-1].ccount++;
@@ -158,15 +200,16 @@ void Stepcgl(Cell** arr){
                 case 2:
                     //Any live cell with two or three
                     // live neighbours lives on to the next generation.
-                    if (arr[i][j].cstate==1){
-                        arr[i][j].cstate=1;
-                        arr[i][j].ccount=0;
-                    }
+                    arr[i][j].ccount=0;
                     break;
                 case 3:
                     //Any dead cell with exactly three
                     // live neighbours becomes a live cell, as if by reproduction.
                     arr[i][j].cstate=1;
+                    arr[i][j].ccount=0;
+                    break;
+                case 4:
+                    arr[i][j].cstate=0;
                     arr[i][j].ccount=0;
                     break;
                 default:
@@ -186,7 +229,7 @@ void MenuControlsLines(){
     cout << "(L)oad simulation from file"<< endl;
     cout << "S(a)ve simulation to file" << endl;
     cout << "(E)xit" << hue::reset << endl;
-};
+}
 
 int main() {
     cout << "there is a start to anything(placeholder)" << endl;

@@ -1,4 +1,4 @@
-<h2> Conway`s game of life in c++</h2> 
+<h2> Conway`s game of life in c++</h2>
 <h4>by @lazarestas (thx to Nupellot and Bezzubik)</h4>
 
 ![Gospers_glider_gun.gif](crap/Gospers_glider_gun.gif)
