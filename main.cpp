@@ -10,8 +10,8 @@ const int FIELDMAX = 4;
 
 //Cell is the smallest element on the field
 struct Cell{
-    int posx;
-    int posy;
+    [[maybe_unused]] int posx;
+    [[maybe_unused]] int posy;
     bool cstate;
 };
 //override << operator to output Cell cstate
@@ -23,16 +23,16 @@ void PrintDaField(Cell** arr,const int max){
     cout << "guess its start of the field" << endl;
     for (int i = 0; i<max;i++){
         for (int j = 0; j<max;j++){
-            cout <<setfill('0') << setw(1)<< arr[i][j] << " ";
+            cout << arr[i][j] << " ";
         }
         cout << endl;
     }
-    for (int i = 0; i<max;i++){
-        for (int j = 0; j<max;j++){
-            cout << arr[i][j].posx << " " << arr[i][j].posy << endl;
-        }
-        cout << endl;
-    }
+//    for (int i = 0; i<max;i++){
+//        for (int j = 0; j<max;j++){
+//            cout << arr[i][j].posx << " " << arr[i][j].posy << endl;
+//        }
+//        cout << endl;
+//    }
     cout << "guess its end of the field" << endl;
 }
 
@@ -53,7 +53,7 @@ Cell** CreateDefautArr(const int max){
 }
 
 void MenuControlsLines(){
-    cout << "(S)tart simulation"<< endl;
+    cout << "(S)tart(step) simulation"<< endl;
     cout << "(P)ause simulation"<< endl;
     cout << "(L)oad simulation from file"<< endl;
     cout << "S(a)ve simulation to file" << endl;
@@ -72,7 +72,7 @@ int main() {
         MenuControlsLines();
         cin >> c;
         switch (toupper(c)){
-                //start
+                //start/step
             case 'S':
                 //pause
             case 'P':
