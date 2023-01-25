@@ -2,7 +2,7 @@
 <h4>by @lazarestas (thx to Nupellot and Bezzubik)</h4>
 
 ![Gospers_glider_gun.gif](crap/Gospers_glider_gun.gif)
-
+<h6>example from wikipedia</h6>
 <h3>Rules</h3>
 Rules
 The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells,

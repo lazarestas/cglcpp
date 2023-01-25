@@ -12,7 +12,8 @@ const int FIELDMAX = 4;
 struct Cell{
     [[maybe_unused]] int posx;
     [[maybe_unused]] int posy;
-    bool cstate;
+    int cstate:1;
+
 };
 //override << operator to output Cell cstate
 ostream& operator << (ostream &os, const Cell &p){
@@ -68,6 +69,7 @@ int main() {
 
     while(toupper(c)!='E'){
         system("cls");
+        cout << sizeof(char) << " " << sizeof(bool) << " " << sizeof(short) << " " << sizeof(Cell) << endl;
         PrintDaField(Cellarr, FIELDMAX);
         MenuControlsLines();
         cin >> c;
