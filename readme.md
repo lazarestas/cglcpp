@@ -55,10 +55,18 @@ notes on main logic v1 <br>
 THE FIELD will be built from 2d array of "Cells", which carry properties like dead/alive <br>
 and their coordinates (not sure if i need coordinates) <br>
 random filling the field will murder testing so for beginnig will use <br>
-0000 <br>
-0110 <br>
-0100 <br>
-0000 <br>
+i is the row j is the column <br>
+10x10 <br>
+
+![img_1.png](crap/img_1.png) <br>
+
 which is ok for the first test (lets name that CreateDefautArr)  <br>
 THE STEP for the simulation means that you need to take the field, convert to the following <br>
 frame and write that to the existing one <br>
+algorithm is simple, but complicated:
+1. go from topleft to bootomright
+2. we check if the cell is alive: <br>
+Alive - 8 neighbours gets an additional point to their cellcount<br>
+Dead - nothing<br>
+on bordering cases check like the field is looped
+3. 
