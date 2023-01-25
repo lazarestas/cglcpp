@@ -55,12 +55,15 @@ int main() {
         MenuControlsLines();
         cin >> c;
         switch (toupper(c)){
+                //start
             case 'S':
+                //pause
             case 'P':
+                //load
+                //will load from file conwaytable.txt
             case 'L':
             case 'A':
             default:
-                cout << "i dunno what to do on this call";
                 break;
         };
     }
