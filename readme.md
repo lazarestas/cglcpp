@@ -26,7 +26,7 @@ births and deaths occur simultaneously, and the discrete moment at which this ha
 Each generation is a pure function of the preceding one. <br>
 The rules continue to be applied repeatedly to create further generations.
 
-![img.png](crap/img.png)
+[//]: # (![img.png]&#40;crap/img.png&#41;)
 
 <h3>Requirements:</h3>
 
@@ -41,7 +41,7 @@ The rules continue to be applied repeatedly to create further generations.
 9. Windows GUI (next lvl play aha)
 10. end goal - cgl in cgl would be kinda cool
 
-<h3> Design:</h3>
+<h3> Design(more like concept/todo):</h3>
 
 1. main logic v1
 2. output and error handling v1
@@ -64,9 +64,13 @@ which is ok for the first test (lets name that CreateDefautArr)  <br>
 THE STEP for the simulation means that you need to take the field, convert to the following <br>
 frame and write that to the existing one <br>
 algorithm is simple, but complicated:
-1. go from topleft to bootomright
+1. go from topleft to bootomright (vertical scan)
 2. we check if the cell is alive: <br>
 Alive - 8 neighbours gets an additional point to their cellcount<br>
 Dead - nothing<br>
-on bordering cases check like the field is looped
-3. 
+on bordering cases check like the field is looped <br>
+![img_1.png](crap/upvotechart.png)
+^^^^NEEDS GOOD SOLUTION^^^
+3. when 2 has been made, write the next generation above
+existing
+4. retry to get more generations
