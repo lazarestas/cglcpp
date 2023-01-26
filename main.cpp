@@ -27,6 +27,8 @@ ostream& operator << (ostream &os, const Cell &p){
             return os << p.cstate;
         case 1:
             return os << dye::red(p.cstate);
+        default:
+            return os;
     }
 
 }
@@ -72,105 +74,108 @@ Cell** CreateDefautArr(){
 }
 
 void Upvote(Cell** arr, int i, int j){
-    if (i<0 or i>FIELDSIZE or j<0 or j>FIELDSIZE){
+    cout << "Asking " << i << " " << j << "Cell" << endl
+    if (i<0 or i>FIELDSIZE or j<0 or j>FIELDSIZE) {
         //error out of array
         cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << endl;
         return;
-    } else if (i==0) {
-        if (j==0){
-            //top left corner
-            arr[FIELDSIZE][FIELDSIZE].ccount++;
-            arr[FIELDSIZE][0].ccount++;
-            arr[FIELDSIZE][1].ccount++;
-            arr[0][FIELDSIZE].ccount++;
-            arr[0][1].ccount++;
-            arr[1][FIELDSIZE].ccount++;
-            arr[1][0].ccount++;
-            arr[1][1].ccount++;
-        } else if (j==FIELDSIZE){
-            //top right corner
-            arr[FIELDSIZE][FIELDSIZE - 1].ccount++;
-            arr[FIELDSIZE][FIELDSIZE].ccount++;
-            arr[FIELDSIZE][0].ccount++;
-            arr[0][FIELDSIZE - 1].ccount++;
-            arr[0][0].ccount++;
-            arr[1][FIELDSIZE - 1].ccount++;
-            arr[1][FIELDSIZE].ccount++;
-            arr[1][0].ccount++;
-        } else if (j>0 and j<FIELDSIZE){
-            //top situation
-            arr[FIELDSIZE][j - 1].ccount++;
-            arr[FIELDSIZE][j].ccount++;
-            arr[FIELDSIZE][j + 1].ccount++;
-            arr[0][j - 1].ccount++;
-            arr[0][j + 1].ccount++;
-            arr[1][j - 1].ccount++;
-            arr[1][j].ccount++;
-            arr[1][j+1].ccount++;
-        }
-    } else if (i == FIELDSIZE) {
-        if (j==0){
-            //bottom left corner
-            arr[FIELDSIZE-1][FIELDSIZE].ccount++;
-            arr[FIELDSIZE][FIELDSIZE].ccount++;
-            arr[0][FIELDSIZE].ccount++;
-            arr[0][0].ccount++;
-            arr[0][1].ccount++;
-            arr[FIELDSIZE-1][0].ccount++;
-            arr[FIELDSIZE-1][1].ccount++;
-            arr[FIELDSIZE][1].ccount++;
-        } else if (j==FIELDSIZE){
-            //bottom right corner
-            arr[FIELDSIZE-1][0].ccount++;
-            arr[FIELDSIZE][0].ccount++;
-            arr[0][FIELDSIZE - 1].ccount++;
-            arr[0][FIELDSIZE].ccount++;
-            arr[0][0].ccount++;
-            arr[FIELDSIZE-1][FIELDSIZE-1].ccount++;
-            arr[FIELDSIZE-1][FIELDSIZE].ccount++;
-            arr[FIELDSIZE][FIELDSIZE-1].ccount++;
-        }   else if (j>0 and j<FIELDSIZE){
-            //bottom situation
-            arr[FIELDSIZE-1][j - 1].ccount++;
-            arr[FIELDSIZE-1][j].ccount++;
-            arr[FIELDSIZE-1][j + 1].ccount++;
-            arr[FIELDSIZE][j - 1].ccount++;
-            arr[FIELDSIZE][j + 1].ccount++;
-            arr[0][j - 1].ccount++;
-            arr[0][j].ccount++;
-            arr[0][j+1].ccount++;
-        }
-    } else if (j==0 and i>0 and i<FIELDSIZE){
-        //left side situation
-        arr[i-1][FIELDSIZE].ccount++;
-        arr[i-1][0].ccount++;
-        arr[i-1][1].ccount++;
-        arr[i][FIELDSIZE].ccount++;
-        arr[i][1].ccount++;
-        arr[i+1][FIELDSIZE].ccount++;
-        arr[i+1][0].ccount++;
-        arr[i+1][1].ccount++;
-    } else if (j == FIELDSIZE and i>0 and i<FIELDSIZE){
-        //right side sitution
-        arr[i-1][FIELDSIZE-1].ccount++;
-        arr[i-1][FIELDSIZE].ccount++;
-        arr[i-1][0].ccount++;
-        arr[i][FIELDSIZE-1].ccount++;
-        arr[i][0].ccount++;
-        arr[i+1][FIELDSIZE-1].ccount++;
-        arr[i+1][FIELDSIZE].ccount++;
-        arr[i+1][0].ccount++;
-    } else {
-        //inside array, no weird teleports
-        arr[i-1][j-1].ccount++;
-        arr[i-1][j].ccount++;
-        arr[i-1][j+1].ccount++;
-        arr[i][j-1].ccount++;
-        arr[i][j+1].ccount++;
-        arr[i+1][j-1].ccount++;
-        arr[i+1][j].ccount++;
-        arr[i+1][j+1].ccount++;
     }
+
+//    } else if (i==0) {
+//        if (j==0){
+//            //top left corner
+//            arr[FIELDSIZE][FIELDSIZE].ccount++;
+//            arr[FIELDSIZE][0].ccount++;
+//            arr[FIELDSIZE][1].ccount++;
+//            arr[0][FIELDSIZE].ccount++;
+//            arr[0][1].ccount++;
+//            arr[1][FIELDSIZE].ccount++;
+//            arr[1][0].ccount++;
+//            arr[1][1].ccount++;
+//        } else if (j==FIELDSIZE){
+//            //top right corner
+//            arr[FIELDSIZE][FIELDSIZE - 1].ccount++;
+//            arr[FIELDSIZE][FIELDSIZE].ccount++;
+//            arr[FIELDSIZE][0].ccount++;
+//            arr[0][FIELDSIZE - 1].ccount++;
+//            arr[0][0].ccount++;
+//            arr[1][FIELDSIZE - 1].ccount++;
+//            arr[1][FIELDSIZE].ccount++;
+//            arr[1][0].ccount++;
+//        } else if (j>0 and j<FIELDSIZE){
+//            //top situation
+//            arr[FIELDSIZE][j - 1].ccount++;
+//            arr[FIELDSIZE][j].ccount++;
+//            arr[FIELDSIZE][j + 1].ccount++;
+//            arr[0][j - 1].ccount++;
+//            arr[0][j + 1].ccount++;
+//            arr[1][j - 1].ccount++;
+//            arr[1][j].ccount++;
+//            arr[1][j+1].ccount++;
+//        }
+//    } else if (i == FIELDSIZE) {
+//        if (j==0){
+//            //bottom left corner
+//            arr[FIELDSIZE-1][FIELDSIZE].ccount++;
+//            arr[FIELDSIZE][FIELDSIZE].ccount++;
+//            arr[0][FIELDSIZE].ccount++;
+//            arr[0][0].ccount++;
+//            arr[0][1].ccount++;
+//            arr[FIELDSIZE-1][0].ccount++;
+//            arr[FIELDSIZE-1][1].ccount++;
+//            arr[FIELDSIZE][1].ccount++;
+//        } else if (j==FIELDSIZE){
+//            //bottom right corner
+//            arr[FIELDSIZE-1][0].ccount++;
+//            arr[FIELDSIZE][0].ccount++;
+//            arr[0][FIELDSIZE - 1].ccount++;
+//            arr[0][FIELDSIZE].ccount++;
+//            arr[0][0].ccount++;
+//            arr[FIELDSIZE-1][FIELDSIZE-1].ccount++;
+//            arr[FIELDSIZE-1][FIELDSIZE].ccount++;
+//            arr[FIELDSIZE][FIELDSIZE-1].ccount++;
+//        }   else if (j>0 and j<FIELDSIZE){
+//            //bottom situation
+//            arr[FIELDSIZE-1][j - 1].ccount++;
+//            arr[FIELDSIZE-1][j].ccount++;
+//            arr[FIELDSIZE-1][j + 1].ccount++;
+//            arr[FIELDSIZE][j - 1].ccount++;
+//            arr[FIELDSIZE][j + 1].ccount++;
+//            arr[0][j - 1].ccount++;
+//            arr[0][j].ccount++;
+//            arr[0][j+1].ccount++;
+//        }
+//    } else if (j==0 and i>0 and i<FIELDSIZE){
+//        //left side situation
+//        arr[i-1][FIELDSIZE].ccount++;
+//        arr[i-1][0].ccount++;
+//        arr[i-1][1].ccount++;
+//        arr[i][FIELDSIZE].ccount++;
+//        arr[i][1].ccount++;
+//        arr[i+1][FIELDSIZE].ccount++;
+//        arr[i+1][0].ccount++;
+//        arr[i+1][1].ccount++;
+//    } else if (j == FIELDSIZE and i>0 and i<FIELDSIZE){
+//        //right side sitution
+//        arr[i-1][FIELDSIZE-1].ccount++;
+//        arr[i-1][FIELDSIZE].ccount++;
+//        arr[i-1][0].ccount++;
+//        arr[i][FIELDSIZE-1].ccount++;
+//        arr[i][0].ccount++;
+//        arr[i+1][FIELDSIZE-1].ccount++;
+//        arr[i+1][FIELDSIZE].ccount++;
+//        arr[i+1][0].ccount++;
+//    } else {
+//        //inside array, no weird teleports
+//        arr[i-1][j-1].ccount++;
+//        arr[i-1][j].ccount++;
+//        arr[i-1][j+1].ccount++;
+//        arr[i][j-1].ccount++;
+//        arr[i][j+1].ccount++;
+//        arr[i+1][j-1].ccount++;
+//        arr[i+1][j].ccount++;
+//        arr[i+1][j+1].ccount++;
+//    }
 }
 
 void Stepcgl(Cell** arr){
@@ -184,44 +189,51 @@ void Stepcgl(Cell** arr){
     //essenially its the planned RenderCell function, but it fits there
     for (int i = 0; i<FIELDMAX;i++){
         for (int j = 0; j<FIELDMAX;j++){
-            switch (arr[i][j].ccount){
-                case 0:
-                    //Any live cell with fewer than two
-                    // live neighbours dies, as if by underpopulation.
-                    arr[i][j].cstate=0;
-                    arr[i][j].ccount=0;
-                    break;
-                case 1:
-                    //Any live cell with fewer than two
-                    // live neighbours dies, as if by underpopulation.
-                    arr[i][j].cstate=0;
-                    arr[i][j].ccount=0;
-                    break;
-                case 2:
-                    //Any live cell with two or three
-                    // live neighbours lives on to the next generation.
-                    arr[i][j].ccount=0;
-                    break;
-                case 3:
-                    //Any dead cell with exactly three
-                    // live neighbours becomes a live cell, as if by reproduction.
-                    arr[i][j].cstate=1;
-                    arr[i][j].ccount=0;
-                    break;
-                case 4:
-                    arr[i][j].cstate=0;
-                    arr[i][j].ccount=0;
-                    break;
-                default:
-                    //Any live cell with more than three
-                    // live neighbours dies, as if by overpopulation.
-                    arr[i][j].cstate=0;
-                    arr[i][j].ccount=0;
-                    break;
+//            switch (arr[i][j].ccount){
+//                case 0:
+//                    //Any live cell with fewer than two
+//                    // live neighbours dies, as if by underpopulation.
+//                    arr[i][j].cstate=0;
+//                    arr[i][j].ccount=0;
+//                    break;
+//                case 1:
+//                    //Any live cell with fewer than two
+//                    // live neighbours dies, as if by underpopulation.
+//                    arr[i][j].cstate=0;
+//                    arr[i][j].ccount=0;
+//                    break;
+//                case 2:
+//                    //Any live cell with two or three
+//                    // live neighbours lives on to the next generation.
+//                    arr[i][j].ccount=0;
+//                    break;
+//                case 3:
+//                    //Any dead cell with exactly three
+//                    // live neighbours becomes a live cell, as if by reproduction.
+//                    arr[i][j].cstate=1;
+//                    arr[i][j].ccount=0;
+//                    break;
+//                case 4:
+//                    arr[i][j].cstate=0;
+//                    arr[i][j].ccount=0;
+//                    break;
+//                default:
+//                    //Any live cell with more than three
+//                    // live neighbours dies, as if by overpopulation.
+//                    arr[i][j].cstate=0;
+//                    arr[i][j].ccount=0;
+//                    break;
+            Cell CelectedCell = arr[i][j];
+            if (CelectedCell.ccount == 3 or (CelectedCell.ccount == 2 and CelectedCell.cstate == 1)) {
+                CelectedCell.cstate=1;
+            } else {
+                CelectedCell.cstate = 0;
+            }
+            CelectedCell.ccount=0;
+            arr[i][j]=CelectedCell;
             }
         }
     }
-}
 
 void MenuControlsLines(){
     cout << hue::aqua << "(S)tart(step) simulation" << endl;
@@ -238,7 +250,7 @@ int main() {
     char c;
 
     while(toupper(c)!='E'){
-        system("cls");
+//        system("cls");
         cout << "Cell is " << sizeof(Cell) << " bytes" << endl;
         PrintDaField(Cellarr);
         MenuControlsLines();
