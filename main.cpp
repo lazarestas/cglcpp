@@ -1,7 +1,5 @@
 #include <iostream>
-#include <iomanip>
 #include <cctype>
-#include <conio.h>
 #include "include/color.hpp"
 
 using namespace std;
@@ -72,15 +70,29 @@ Cell** CreateDefautArr(){
     Cellarr[7][2].cstate++;
     return Cellarr;
 }
-
+int poscalc(int x, int max){
+    return ((abs(x)-x)/2*max+x%max);
+}
 void Upvote(Cell** arr, int i, int j){
-    cout << "Asking " << i << " " << j << "Cell" << endl
+//    cout << "Asking " << i << " " << j << "Cell" << endl;
     if (i<0 or i>FIELDSIZE or j<0 or j>FIELDSIZE) {
         //error out of array
         cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << endl;
         return;
     }
-
+    //4 poscalc functions: 2 for i 2 for j (+-1)
+    int imin=poscalc(i-1,FIELDMAX);
+    int imax=poscalc(i+1,FIELDMAX);
+    int jmin=poscalc(j-1,FIELDMAX);
+    int jmax=poscalc(j+1,FIELDMAX);
+    arr[imin][jmin].ccount++;
+    arr[i][jmin].ccount++;
+    arr[imax][jmin].ccount++;
+    arr[imin][j].ccount++;
+    arr[imax][j].ccount++;
+    arr[imin][jmax].ccount++;
+    arr[i][jmax].ccount++;
+    arr[imax][jmax].ccount++;
 //    } else if (i==0) {
 //        if (j==0){
 //            //top left corner
@@ -244,17 +256,18 @@ void MenuControlsLines(){
 }
 
 int main() {
-    cout << "there is a start to anything(placeholder)" << endl;
+//    cout << "there is a start to anything(placeholder)" << endl;
     //there we set up cell array Cellarr
     Cell** Cellarr = CreateDefautArr();
     char c;
 
     while(toupper(c)!='E'){
-//        system("cls");
-        cout << "Cell is " << sizeof(Cell) << " bytes" << endl;
+
+//        cout << "Cell is " << sizeof(Cell) << " bytes" << endl;
         PrintDaField(Cellarr);
         MenuControlsLines();
         cin >> c;
+
         switch (toupper(c)){
                 //start/step
             case 'S':
@@ -267,7 +280,12 @@ int main() {
             case 'L':
             case 'A': break;
         }
+
     }
+    for (int i=0;i<FIELDMAX;i++){
+        delete Cellarr[i];
+    }
+    delete Cellarr;
     //I want it to be menu controlled so let's write down menu
     return 0;
 }

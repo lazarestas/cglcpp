@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: conway
-# Configurations: Debug
+# Configurations: Release
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Debug
+CONFIGURATION = Release
 # =============================================================================
 # Include auxiliary files.
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/clion(jetc)/conway/cmake-build-debug/
+cmake_ninja_workdir = D$:/clion(jetc)/conway/cmake-build-release/
 # =============================================================================
 # Object build statements for EXECUTABLE target conway
 
@@ -49,9 +49,9 @@ cmake_ninja_workdir = D$:/clion(jetc)/conway/cmake-build-debug/
 
 build cmake_object_order_depends_target_conway: phony || CMakeFiles/conway.dir
 
-build CMakeFiles/conway.dir/main.cpp.obj: CXX_COMPILER__conway_Debug D$:/clion(jetc)/conway/main.cpp || cmake_object_order_depends_target_conway
+build CMakeFiles/conway.dir/main.cpp.obj: CXX_COMPILER__conway_Release D$:/clion(jetc)/conway/main.cpp || cmake_object_order_depends_target_conway
   DEP_FILE = CMakeFiles\conway.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\conway.dir
   OBJECT_FILE_DIR = CMakeFiles\conway.dir
 
@@ -63,8 +63,8 @@ build CMakeFiles/conway.dir/main.cpp.obj: CXX_COMPILER__conway_Debug D$:/clion(j
 #############################################
 # Link the executable conway.exe
 
-build conway.exe: CXX_EXECUTABLE_LINKER__conway_Debug CMakeFiles/conway.dir/main.cpp.obj
-  FLAGS = -g
+build conway.exe: CXX_EXECUTABLE_LINKER__conway_Release CMakeFiles/conway.dir/main.cpp.obj
+  FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\conway.dir
   POST_BUILD = cd .
@@ -78,7 +78,7 @@ build conway.exe: CXX_EXECUTABLE_LINKER__conway_Debug CMakeFiles/conway.dir/main
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\clion(jetc)\conway\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\clion(jetc)\conway\cmake-build-release && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\clion(jetc)\conway\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\clion(jetc)\conway -BD:\clion(jetc)\conway\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\clion(jetc)\conway\cmake-build-release && "C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\clion(jetc)\conway -BD:\clion(jetc)\conway\cmake-build-release"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build conway: phony conway.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/clion(jetc)/conway/cmake-build-debug
+# Folder: D:/clion(jetc)/conway/cmake-build-release
 
 build all: phony conway.exe
 

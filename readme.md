@@ -71,7 +71,7 @@ Dead - nothing<br>
 on bordering cases check like the field is looped <br>
 ![img_1.png](crap/upvotechart.png)
 ^^^^NEEDS GOOD SOLUTION^^^<br>
-thx to Bezzubik we have ((abs(x)-x)/2)*+(x%max)<br>
+thx to Bezzubik we have ((abs(x)-x)/2)*max+(x%max)<br>
 where 
 3. when 2 has been made, write the next generation above
 existing
