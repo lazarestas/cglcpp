@@ -75,4 +75,5 @@ thx to Bezzubik we have ((abs(x)-x)/2)*max+(x%max)<br>
 where 
 3. when 2 has been made, write the next generation above
 existing
-4. retry to get more generations
+4. retry to get more generations <br>
+to automate stepping we need to use timers and xlib to better handle the buttons

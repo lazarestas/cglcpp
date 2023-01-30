@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "conway::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-conway-Release-70b4ac2ec99e57dd9c3e.json",
+					"jsonFile" : "target-conway-Debug-714ff47a24558082e87a.json",
 					"name" : "conway",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/clion(jetc)/conway/cmake-build-release",
+		"build" : "D:/clion(jetc)/conway/cmake-build-debug",
 		"source" : "D:/clion(jetc)/conway"
 	},
 	"version" : 
