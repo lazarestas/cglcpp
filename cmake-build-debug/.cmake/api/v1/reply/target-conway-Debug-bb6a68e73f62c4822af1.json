@@ -96,7 +96,8 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -110,7 +111,12 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "simple.h",
+			"path" : "logic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "console.h",
 			"sourceGroupIndex" : 1
 		}
 	],

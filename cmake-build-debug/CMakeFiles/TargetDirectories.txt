@@ -1,3 +1,3 @@
-D:/clion(jetc)/conway/cmake-build-debug/CMakeFiles/conway.dir
-D:/clion(jetc)/conway/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/clion(jetc)/conway/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Work/pycharm/cglcpp/cmake-build-debug/CMakeFiles/conway.dir
+D:/Work/pycharm/cglcpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Work/pycharm/cglcpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

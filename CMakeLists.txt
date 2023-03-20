@@ -3,4 +3,4 @@ project(conway)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(conway main.cpp simple.h)
+add_executable(conway main.cpp logic.h console.h)
