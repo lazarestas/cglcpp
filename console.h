@@ -52,6 +52,7 @@ int LoadFromFile(Cell** Cellarr){
         return -2;
     }
     source.close();
+    return 0;
 }
 int SaveToFile(Cell** Cellarr){
     ofstream result(R"(D:\Work\pycharm\cglcpp\cglresult.txt)");
@@ -67,6 +68,7 @@ int SaveToFile(Cell** Cellarr){
         return -2;
     }
     result.close();
+    return 0;
 }
 
 void MenuControlLines(){

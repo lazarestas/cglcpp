@@ -30,7 +30,7 @@ The rules continue to be applied repeatedly to create further generations.
 
 <h3>Requirements:</h3>
 
-1. Working simulation with autoframechange (in console)
+1. Working simulation with autoframechange 
 2. Errors should be working EVERYWHERE please future me do not ignore
 3. Customizable field properties (such as x/y size and looping)
 4. Start/stop functionality 
