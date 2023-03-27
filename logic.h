@@ -9,7 +9,8 @@
 #include <iostream>
 using namespace std;
 //let's fix the field dimensions 4 now
-const int FIELDMAX = 25;
+const int FIELDMAXh = 36;
+const int FIELDMAXw = 50;
 //Cell is the smallest element on the field only 4 bytes kinda cool
 struct Cell{
     //state of cell: 0 is dead 1 is alive
@@ -25,10 +26,10 @@ Cell** CreateDefautArr();
 void Upvote(Cell**, int, int);
 void Stepcgl(Cell**);
 Cell** CreateDefautArr(){
-    Cell **Cellarr = new Cell*[FIELDMAX];
-    for (int i=0;i<FIELDMAX;i++){
-        Cellarr[i]=new Cell[FIELDMAX];
-        for (int j = 0; j<FIELDMAX;j++){
+    Cell **Cellarr = new Cell*[FIELDMAXh];
+    for (int i=0;i<FIELDMAXh;i++){
+        Cellarr[i]=new Cell[FIELDMAXw];
+        for (int j = 0; j<FIELDMAXw;j++){
             Cellarr[i][j].cstate=0;
             Cellarr[i][j].ccount=0;
         }
@@ -52,15 +53,15 @@ Cell** CreateDefautArr(){
 }
 void Upvote(Cell** arr, int i, int j){
 //    cout << "Asking " << i << " " << j << "Cell" << endl;
-    if (i<0 or i>FIELDMAX-1 or j<0 or j>FIELDMAX-1) {
+    if (i<0 or i>FIELDMAXh-1 or j<0 or j>FIELDMAXw-1) {
         //error out of array
         cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << endl;
         return;
     }
-    int imin = (i - 1 + FIELDMAX) % FIELDMAX;
-    int imax = (i + 1) % FIELDMAX;
-    int jmin = (j - 1 + FIELDMAX) % FIELDMAX;
-    int jmax = (j + 1) % FIELDMAX;
+    int imin = (i - 1 + FIELDMAXh) % FIELDMAXh;
+    int imax = (i + 1) % FIELDMAXh;
+    int jmin = (j - 1 + FIELDMAXw) % FIELDMAXw;
+    int jmax = (j + 1) % FIELDMAXw;
     arr[imin][jmin].ccount++;
     arr[i][jmin].ccount++;
     arr[imax][jmin].ccount++;
@@ -73,16 +74,16 @@ void Upvote(Cell** arr, int i, int j){
 
 
 void Stepcgl(Cell** arr){
-    for (int i = 0; i<FIELDMAX;i++){
-        for (int j = 0; j<FIELDMAX;j++){
+    for (int i = 0; i<FIELDMAXh;i++){
+        for (int j = 0; j<FIELDMAXw;j++){
             if (arr[i][j].cstate == 1) {
                 Upvote(arr,i,j);
             }
         }
     }
     //essenially its the planned RenderCell function, but it fits there
-    for (int i = 0; i<FIELDMAX;i++){
-        for (int j = 0; j<FIELDMAX;j++){
+    for (int i = 0; i<FIELDMAXh;i++){
+        for (int j = 0; j<FIELDMAXw;j++){
             Cell CelectedCell = arr[i][j];
             if (CelectedCell.ccount == 3 or (CelectedCell.ccount == 2 and CelectedCell.cstate == 1)) {
                 CelectedCell.cstate=1;

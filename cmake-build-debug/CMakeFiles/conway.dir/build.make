@@ -69,6 +69,7 @@ include CMakeFiles/conway.dir/progress.make
 include CMakeFiles/conway.dir/flags.make
 
 CMakeFiles/conway.dir/main.cpp.obj: CMakeFiles/conway.dir/flags.make
+CMakeFiles/conway.dir/main.cpp.obj: CMakeFiles/conway.dir/includes_CXX.rsp
 CMakeFiles/conway.dir/main.cpp.obj: D:/Work/pycharm/cglcpp/main.cpp
 CMakeFiles/conway.dir/main.cpp.obj: CMakeFiles/conway.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Work\pycharm\cglcpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/conway.dir/main.cpp.obj"
@@ -91,6 +92,9 @@ conway_EXTERNAL_OBJECTS =
 
 conway.exe: CMakeFiles/conway.dir/main.cpp.obj
 conway.exe: CMakeFiles/conway.dir/build.make
+conway.exe: C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-graphics-d.a
+conway.exe: C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-window-d.a
+conway.exe: C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/libsfml-system-d.a
 conway.exe: CMakeFiles/conway.dir/linklibs.rsp
 conway.exe: CMakeFiles/conway.dir/objects1.rsp
 conway.exe: CMakeFiles/conway.dir/link.txt
