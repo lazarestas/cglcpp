@@ -10,8 +10,8 @@
 using namespace std;
 
 //let's fix the field dimensions 4 now
-const int FIELDMAXh = 36; // size of game field
-const int FIELDMAXw = 50;
+const int FIELDMAXh = 80; // size of game field
+const int FIELDMAXw = 120;
 const int CELL_SIZE = 10; // Size of each cell in window
 
 //Cell is the smallest element on the field only 4 bytes kinda cool

@@ -2,8 +2,8 @@
 #include "console.h"
 #include <SFML/Graphics.hpp>
 #include <thread>
-
-
+#include <chrono>
+#include <string>
 
 void drawCells(sf::RenderWindow& window, Cell** cellarr)
 {
@@ -35,17 +35,43 @@ int main() {
     }
     // start/stop iterator
     int gamestate = 1;
+
     // Create a text
     sf::Text text("e-restart esc-exit s-edit l-savetofile",font);
+    //text is frametime measure
+    sf::Text text1,text2;
     text.setCharacterSize(20);
+    text1.setCharacterSize(20);
+    text2.setCharacterSize(20);
     text.setFont(font);
+    text1.setFont(font);
+    text2.setFont(font);
     text.setFillColor(sf::Color::White);
+    text1.setFillColor(sf::Color::Red);
+    text2.setFillColor(sf::Color::Yellow);
     text.setPosition(FIELDMAXw*CELL_SIZE/2-150,FIELDMAXh*CELL_SIZE-20);
-    sf::RenderWindow window(sf::VideoMode(FIELDMAXw*CELL_SIZE, FIELDMAXh*CELL_SIZE), "conway`s game of life",sf::Style::None);
+    text1.setPosition(FIELDMAXw*CELL_SIZE/2-150,FIELDMAXh*CELL_SIZE-40);
+    text2.setPosition(FIELDMAXw*CELL_SIZE/2-100,FIELDMAXh*CELL_SIZE-40);
+    sf::RenderWindow window(sf::VideoMode(FIELDMAXw*CELL_SIZE, FIELDMAXh*CELL_SIZE), "conway`s game of life",sf::Style::Close);
+
     window.setFramerateLimit(10);
+
+    auto begin = std::chrono::high_resolution_clock::now();
+    auto end = std::chrono::high_resolution_clock::now();
+    auto end1 = std::chrono::high_resolution_clock::now();
+    auto elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
     while (window.isOpen())
     {
+        //clear window
+        window.clear();
+        // timer for frametime
+        end = std::chrono::high_resolution_clock::now();
+        elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
+        text1.setString(to_string(elapsed));
+        begin = std::chrono::high_resolution_clock::now();
+
         sf::Event event;
+
         while (window.pollEvent(event))
         {
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::E))
@@ -58,35 +84,31 @@ int main() {
                 if (gamestate==1) gamestate=0;
                 else gamestate=1;
             }
+            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left && gamestate == 0) {
+                SetLive(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
+            }
+            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Right && gamestate == 0) {
+                SetDead(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
+            }
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::L) {
+                SaveToFile(Cellarr);
+            }
             if (event.type == sf::Event::Closed||sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
                 window.close();
         }
-        window.clear();
-        // Add your drawing code here
+
+        // drawing stuff
         drawCells(window,Cellarr);
         window.draw(text);
+        window.draw(text1);
+        end1 = std::chrono::high_resolution_clock::now();
+        elapsed = chrono::duration_cast<chrono::milliseconds>(end1 - begin).count();
+        text2.setString(to_string(elapsed));
+        window.draw(text2);
         window.display();
 
         if (gamestate) Stepcgl(Cellarr);
-        else
-            while (window.pollEvent(event)) {
-                if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) {
-                        std::cout << "the left button was pressed" << std::endl;
-                        std::cout << "mouse x: " << event.mouseButton.x/CELL_SIZE << std::endl;
-                        std::cout << "mouse y: " << event.mouseButton.y/CELL_SIZE << std::endl;
-                        SetLive(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
-                    }
-                if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Right) {
-                    std::cout << "the left button was pressed" << std::endl;
-                    std::cout << "mouse x: " << event.mouseButton.x/CELL_SIZE << std::endl;
-                    std::cout << "mouse y: " << event.mouseButton.y/CELL_SIZE << std::endl;
-                    SetDead(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
-                }
-                if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S)
-                    gamestate=1;
-                if (event.type == sf::Event::Closed||sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
-                    window.close();
-            }
+
     }
     //free the allocated memory after competion
     for (int i=0;i<FIELDMAXh;i++){
