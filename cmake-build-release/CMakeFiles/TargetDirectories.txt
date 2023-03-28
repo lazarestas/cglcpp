@@ -1,3 +1,0 @@
-D:/clion(jetc)/conway/cmake-build-release/CMakeFiles/conway.dir
-D:/clion(jetc)/conway/cmake-build-release/CMakeFiles/edit_cache.dir
-D:/clion(jetc)/conway/cmake-build-release/CMakeFiles/rebuild_cache.dir

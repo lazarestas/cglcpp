@@ -52,7 +52,7 @@ int main() {
     text.setPosition(FIELDMAXw*CELL_SIZE/2-150,FIELDMAXh*CELL_SIZE-20);
     text1.setPosition(FIELDMAXw*CELL_SIZE/2-150,FIELDMAXh*CELL_SIZE-40);
     text2.setPosition(FIELDMAXw*CELL_SIZE/2-100,FIELDMAXh*CELL_SIZE-40);
-    sf::RenderWindow window(sf::VideoMode(FIELDMAXw*CELL_SIZE, FIELDMAXh*CELL_SIZE), "conway`s game of life",sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(FIELDMAXw*CELL_SIZE, FIELDMAXh*CELL_SIZE), "conway`s game of life",sf::Style::Default);
 
     window.setFramerateLimit(10);
 
