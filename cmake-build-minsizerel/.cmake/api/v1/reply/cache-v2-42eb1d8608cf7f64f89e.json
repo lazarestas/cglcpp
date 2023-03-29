@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "MinSizeRel"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Work/pycharm/cglcpp/cmake-build-debug"
+			"value" : "d:/Work/pycharm/cglcpp/cmake-build-minsizerel"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Work/pycharm/cglcpp/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Work/pycharm/cglcpp/cmake-build-minsizerel/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -1326,6 +1326,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "SFML_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for SFML."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/Program Files/JetBrains/CLion 2022.3.3/bin/mingw/lib/cmake/SFML"
+		},
+		{
 			"name" : "SFML_DOC_DIR",
 			"properties" : 
 			[
@@ -1359,7 +1371,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Work/pycharm/cglcpp/cmake-build-debug"
+			"value" : "D:/Work/pycharm/cglcpp/cmake-build-minsizerel"
 		},
 		{
 			"name" : "conway_IS_TOP_LEVEL",

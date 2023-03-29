@@ -22,8 +22,8 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake",
-			"C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake"
+			"C:/Program Files/JetBrains/CLion 2022.3.3/bin/mingw/lib/cmake/SFML/SFMLSharedTargets.cmake",
+			"C:/Program Files/JetBrains/CLion 2022.3.3/bin/mingw/lib/cmake/SFML/SFMLConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -33,19 +33,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 9,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 6,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
@@ -85,14 +85,6 @@
 					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
-			"includes" : 
-			[
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include"
-				}
-			],
 			"language" : "CXX",
 			"languageStandard" : 
 			{
@@ -123,17 +115,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\Users\\Stas\\Downloads\\SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit\\SFML-2.5.1\\lib\\libsfml-graphics-d.a",
+				"fragment" : "\"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\mingw\\lib\\libsfml-graphics-d.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 7,
-				"fragment" : "C:\\Users\\Stas\\Downloads\\SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit\\SFML-2.5.1\\lib\\libsfml-window-d.a",
+				"fragment" : "\"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\mingw\\lib\\libsfml-window-d.a\"",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 8,
-				"fragment" : "C:\\Users\\Stas\\Downloads\\SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit\\SFML-2.5.1\\lib\\libsfml-system-d.a",
+				"fragment" : "\"C:\\Program Files\\JetBrains\\CLion 2022.3.3\\bin\\mingw\\lib\\libsfml-system-d.a\"",
 				"role" : "libraries"
 			},
 			{

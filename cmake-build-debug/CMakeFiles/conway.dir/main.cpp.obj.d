@@ -404,23 +404,23 @@ CMakeFiles/conway.dir/main.cpp.obj: D:\Work\pycharm\cglcpp\main.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Config.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Clock.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Export.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Time.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Err.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/FileInputStream.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/InputStream.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Lock.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Mutex.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Sleep.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/String.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Utf.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Config.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Clock.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Export.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Time.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Err.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/FileInputStream.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/InputStream.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/NonCopyable.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Lock.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/MemoryInputStream.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Mutex.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Sleep.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/String.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Utf.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
@@ -429,65 +429,65 @@ CMakeFiles/conway.dir/main.cpp.obj: D:\Work\pycharm\cglcpp\main.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Utf.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Utf.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/String.inl \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Thread.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Thread.inl \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocal.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.inl \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector2.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector2.inl \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector3.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector3.inl \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Clipboard.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Export.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Context.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/GlResource.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/ContextSettings.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Event.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Joystick.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Keyboard.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Mouse.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Sensor.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Touch.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/VideoMode.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Window.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/CircleShape.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Shape.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Drawable.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderStates.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Transform.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Rect.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Rect.inl \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Transformable.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/VertexArray.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Vertex.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Color.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/PrimitiveType.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/ConvexShape.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Font.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glyph.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Texture.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Image.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RectangleShape.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/View.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderTexture.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Shader.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glsl.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glsl.inl \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Text.hpp \
- C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/String.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Thread.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Thread.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/ThreadLocal.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/ThreadLocalPtr.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/ThreadLocalPtr.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector2.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector2.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector3.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector3.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Clipboard.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Export.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Context.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/GlResource.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/ContextSettings.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Cursor.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Event.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Joystick.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Keyboard.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Mouse.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Sensor.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Touch.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/VideoMode.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Window.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/WindowHandle.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/WindowStyle.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/BlendMode.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Export.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/CircleShape.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Shape.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Drawable.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderStates.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Transform.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Rect.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Rect.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Transformable.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/VertexArray.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Vertex.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Color.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/ConvexShape.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Font.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Glyph.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Texture.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Image.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RectangleShape.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderTarget.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/View.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderTexture.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderWindow.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Shader.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Glsl.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Glsl.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Sprite.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Text.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/VertexBuffer.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/thread \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/this_thread_sleep.h \

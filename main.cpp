@@ -70,12 +70,13 @@ int main() {
 
     while (window.isOpen()){
         //clear window
+        clock.restart();
         window.clear();
         // timer for frametime
-        sf::Time elapsed1 = clock.getElapsedTime();
+
         //end = std::chrono::high_resolution_clock::now();
         //elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
-        text1.setString(std::to_string(elapsed1.asMilliseconds()));
+
         //begin = std::chrono::high_resolution_clock::now();
 
         sf::Event event{};
@@ -96,21 +97,22 @@ int main() {
             if (event.type == sf::Event::Closed||sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
                 window.close();
         }
-
+        sf::Time elapsed1 = clock.restart();
+        text1.setString(std::to_string(elapsed1.asMilliseconds()));
         // drawing stuff
         drawCells(window,Cellarr);
         window.draw(text);
         window.draw(text1);
+        window.draw(text2);
 
         // perf overlay
         //end1 = std::chrono::high_resolution_clock::now();
         //elapsed = chrono::duration_cast<chrono::milliseconds>(end1 - begin).count();
-        sf::Time elapsed2 = clock.restart();
-        text2.setString(std::to_string(elapsed2.asMilliseconds()));
-        window.draw(text2);
 
         //draw window
         window.display();
+        sf::Time elapsed2 = clock.restart();
+        text2.setString(std::to_string(elapsed2.asMilliseconds()));
         //update the field if the game is not in edit mode
         if (gamestate) Stepcgl(Cellarr);
     }

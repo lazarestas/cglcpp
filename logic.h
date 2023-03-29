@@ -10,9 +10,9 @@
 
 
 //let's fix the field dimensions 4 now
-const int FIELDMAXh = 400; // size of game field
-const int FIELDMAXw = 600;
-const int CELL_SIZE = 2; // Size of each cell in window
+const int FIELDMAXh = 200; // size of game field
+const int FIELDMAXw = 300;
+const int CELL_SIZE = 4; // Size of each cell in window
 
 //Cell is the smallest element on the field only 4 bytes kinda cool
 struct Cell{
