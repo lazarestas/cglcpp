@@ -1,6 +1,10 @@
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "bugprone-integer-division"
 #include "logic.h"
 #include "console.h"
 #include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/System.hpp>
 #include <thread>
 #include <chrono>
 #include <string>
@@ -24,44 +28,48 @@ void drawCells(sf::RenderWindow& window, Cell** cellarr)
     }
 }
 int main() {
+
     //there we set up cell array Cellarr
     Cell** Cellarr = CreateDefautArr();
+    //loading array from file
     LoadFromFile(Cellarr);
+
     // Declare and load a font
     sf::Font font;
-    if (!font.loadFromFile("D:\\Work\\pycharm\\cglcpp\\SF-Pro.ttf"))
-    {
-        return 123;
-    }
+    if (!font.loadFromFile(R"(D:\Work\pycharm\cglcpp\SF-Pro.ttf)")) return 4;
+
     // start/stop iterator
     int gamestate = 1;
 
-    // Create a text
+    // text for controls
     sf::Text text("e-restart esc-exit s-edit l-savetofile",font);
-    //text is frametime measure
-    sf::Text text1,text2;
     text.setCharacterSize(20);
+    text.setFont(font);
+    text.setFillColor(sf::Color::White);
+    text.setPosition(FIELDMAXw*CELL_SIZE/2-150,FIELDMAXh*CELL_SIZE-20);
+    //text1,2 is frametime measure
+    sf::Text text1,text2;
     text1.setCharacterSize(20);
     text2.setCharacterSize(20);
-    text.setFont(font);
     text1.setFont(font);
     text2.setFont(font);
-    text.setFillColor(sf::Color::White);
     text1.setFillColor(sf::Color::Red);
     text2.setFillColor(sf::Color::Yellow);
     text.setPosition(FIELDMAXw*CELL_SIZE/2-150,FIELDMAXh*CELL_SIZE-20);
     text1.setPosition(FIELDMAXw*CELL_SIZE/2-150,FIELDMAXh*CELL_SIZE-40);
     text2.setPosition(FIELDMAXw*CELL_SIZE/2-100,FIELDMAXh*CELL_SIZE-40);
-    sf::RenderWindow window(sf::VideoMode(FIELDMAXw*CELL_SIZE, FIELDMAXh*CELL_SIZE), "conway`s game of life",sf::Style::Default);
 
+    sf::RenderWindow window(sf::VideoMode(FIELDMAXw*CELL_SIZE, FIELDMAXh*CELL_SIZE), "conway`s game of life",sf::Style::Default);
+    sf::Image icon;
+    if (!icon.loadFromFile(R"(D:\Work\pycharm\cglcpp\crap\astolfo.png)")) return 5; // File/Image/Pixel
+    window.setIcon(200, 200, icon.getPixelsPtr()); //fucking hardcoded width/heigth because of stupid sfml dll differences
     window.setFramerateLimit(10);
 
     auto begin = std::chrono::high_resolution_clock::now();
     auto end = std::chrono::high_resolution_clock::now();
     auto end1 = std::chrono::high_resolution_clock::now();
     auto elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
-    while (window.isOpen())
-    {
+    while (window.isOpen()){
         //clear window
         window.clear();
         // timer for frametime
@@ -72,15 +80,12 @@ int main() {
 
         sf::Event event;
 
-        while (window.pollEvent(event))
-        {
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::E))
-            {
+        while (window.pollEvent(event)){
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::E)){
                 // left key is pressed: move our character
                 LoadFromFile(Cellarr);
             }
-            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S)
-            {
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S){
                 if (gamestate==1) gamestate=0;
                 else gamestate=1;
             }
@@ -101,12 +106,14 @@ int main() {
         drawCells(window,Cellarr);
         window.draw(text);
         window.draw(text1);
+        // perf overlay
         end1 = std::chrono::high_resolution_clock::now();
         elapsed = chrono::duration_cast<chrono::milliseconds>(end1 - begin).count();
         text2.setString(to_string(elapsed));
         window.draw(text2);
+        //draw window
         window.display();
-
+        //update the field if the game is not in edit mode
         if (gamestate) Stepcgl(Cellarr);
 
     }
@@ -118,3 +125,5 @@ int main() {
     //I want it to be menu controlled so let's write down menu
     return 0;
 }
+
+#pragma clang diagnostic pop

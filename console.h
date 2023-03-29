@@ -24,8 +24,8 @@ ostream& operator << (ostream &os, const Cell &p){
 
 void MenuControlLines();
 void PrintDaField(Cell**);
-int LoadFromFile(Cell**);
-int SaveToFile(Cell**);
+void LoadFromFile(Cell**);
+void SaveToFile(Cell**);
 
 
 void PrintDaField(Cell** arr){
@@ -37,7 +37,7 @@ void PrintDaField(Cell** arr){
         cout << endl;
     }
 }
-int LoadFromFile(Cell** Cellarr){
+void LoadFromFile(Cell** Cellarr){
     ifstream source(R"(D:\Work\pycharm\cglcpp\cglsource.txt)");
     int cstate;
     if (source.is_open()){
@@ -49,12 +49,12 @@ int LoadFromFile(Cell** Cellarr){
         }
     } else {
         cout << "Error loading file cglsource.txt" << endl;
-        return -2;
+        exit(2);
     }
     source.close();
-    return 0;
+    return;
 }
-int SaveToFile(Cell** Cellarr){
+void SaveToFile(Cell** Cellarr){
     ofstream result(R"(D:\Work\pycharm\cglcpp\cglresult.txt)");
     if (result.is_open()){
         for (int i = 0; i<FIELDMAXh;i++){
@@ -65,10 +65,10 @@ int SaveToFile(Cell** Cellarr){
         }
     } else {
         cout << "Error loading file cglresult.txt" << endl;
-        return -2;
+        exit (3);
     }
     result.close();
-    return 0;
+    return;
 }
 
 void MenuControlLines(){

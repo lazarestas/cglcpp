@@ -50,7 +50,7 @@ void Upvote(Cell** arr, int i, int j){
     if (i<0 or i>FIELDMAXh-1 or j<0 or j>FIELDMAXw-1) {
         //error out of array
         cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << endl;
-        return;
+        exit(1);
     }
     int imin = (i - 1 + FIELDMAXh) % FIELDMAXh;
     int imax = (i + 1) % FIELDMAXh;

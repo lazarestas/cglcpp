@@ -72,8 +72,17 @@ on bordering cases check like the field is looped <br>
 ![img_1.png](crap/upvotechart.png)
 ^^^^NEEDS GOOD SOLUTION^^^<br>
 thx to Bezzubik we have ((abs(x)-x)/2)*max+(x%max)<br>
-where 
+update: thanks to chatgpt corner cases were optimized, now we need 4 calculations<br>
+and 8 increments <br>
 3. when 2 has been made, write the next generation above
-existing
+existing<br>
 4. retry to get more generations <br>
-to automate stepping we need to use timers and xlib to better handle the buttons
+to automate stepping we need to use timers and xlib to better handle the buttons <br>
+actually to implement stepping was used frameupdating of sfml<br>
+//error codes <br>
+0 - succesful execution <br>
+1 - out of array in Upvote <br>
+2 - LoadFromFile failed <br>
+3 - SaveToFile failed <br>
+4 - Font loading failed <br>
+5 - Icon loading error <br>
