@@ -1,10 +1,7 @@
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "bugprone-integer-division"
+
 #include "logic.h"
 #include "console.h"
 #include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
-#include <SFML/System.hpp>
 #include <thread>
 #include <chrono>
 #include <string>
@@ -39,7 +36,7 @@ int main() {
     if (!font.loadFromFile(R"(D:\Work\pycharm\cglcpp\SF-Pro.ttf)")) return 4;
 
     // start/stop iterator
-    int gamestate = 1;
+    unsigned int gamestate = 1;
 
     // text for controls
     sf::Text text("e-restart esc-exit s-edit l-savetofile",font);
@@ -65,39 +62,37 @@ int main() {
     window.setIcon(200, 200, icon.getPixelsPtr()); //fucking hardcoded width/heigth because of stupid sfml dll differences
     window.setFramerateLimit(10);
 
-    auto begin = std::chrono::high_resolution_clock::now();
-    auto end = std::chrono::high_resolution_clock::now();
-    auto end1 = std::chrono::high_resolution_clock::now();
-    auto elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
+    sf::Clock clock; // starts the clock
+//    auto begin = std::chrono::high_resolution_clock::now();
+//    auto end = std::chrono::high_resolution_clock::now();
+//    auto end1 = std::chrono::high_resolution_clock::now();
+//    auto elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
+
     while (window.isOpen()){
         //clear window
         window.clear();
         // timer for frametime
-        end = std::chrono::high_resolution_clock::now();
-        elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
-        text1.setString(to_string(elapsed));
-        begin = std::chrono::high_resolution_clock::now();
+        sf::Time elapsed1 = clock.getElapsedTime();
+        //end = std::chrono::high_resolution_clock::now();
+        //elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
+        text1.setString(std::to_string(elapsed1.asMilliseconds()));
+        //begin = std::chrono::high_resolution_clock::now();
 
-        sf::Event event;
+        sf::Event event{};
 
         while (window.pollEvent(event)){
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::E)){
-                // left key is pressed: move our character
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S)
+                gamestate ^= 1;
+
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::E)
                 LoadFromFile(Cellarr);
-            }
-            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S){
-                if (gamestate==1) gamestate=0;
-                else gamestate=1;
-            }
-            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left && gamestate == 0) {
-                SetLive(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
-            }
-            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Right && gamestate == 0) {
-                SetDead(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
-            }
-            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::L) {
+
+            if (event.type == sf::Event::MouseButtonPressed && gamestate == 0 && (event.mouseButton.button == sf::Mouse::Left || event.mouseButton.button ==sf::Mouse::Right))
+                ChangeCState(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
+
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::L)
                 SaveToFile(Cellarr);
-            }
+
             if (event.type == sf::Event::Closed||sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
                 window.close();
         }
@@ -106,16 +101,18 @@ int main() {
         drawCells(window,Cellarr);
         window.draw(text);
         window.draw(text1);
+
         // perf overlay
-        end1 = std::chrono::high_resolution_clock::now();
-        elapsed = chrono::duration_cast<chrono::milliseconds>(end1 - begin).count();
-        text2.setString(to_string(elapsed));
+        //end1 = std::chrono::high_resolution_clock::now();
+        //elapsed = chrono::duration_cast<chrono::milliseconds>(end1 - begin).count();
+        sf::Time elapsed2 = clock.restart();
+        text2.setString(std::to_string(elapsed2.asMilliseconds()));
         window.draw(text2);
+
         //draw window
         window.display();
         //update the field if the game is not in edit mode
         if (gamestate) Stepcgl(Cellarr);
-
     }
     //free the allocated memory after competion
     for (int i=0;i<FIELDMAXh;i++){

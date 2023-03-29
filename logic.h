@@ -7,7 +7,7 @@
 
 #include "include/color.hpp"
 #include <iostream>
-using namespace std;
+
 
 //let's fix the field dimensions 4 now
 const int FIELDMAXh = 400; // size of game field
@@ -29,6 +29,7 @@ void Upvote(Cell**, int, int);
 void Stepcgl(Cell**);
 void SetLive(int,int,Cell**);
 void SetDead(int,int,Cell**);
+void ChangeCState(int,int,Cell**);
 
 Cell** CreateDefautArr(){
     Cell **Cellarr = new Cell*[FIELDMAXh];
@@ -49,7 +50,7 @@ Cell** CreateDefautArr(){
 void Upvote(Cell** arr, int i, int j){
     if (i<0 or i>FIELDMAXh-1 or j<0 or j>FIELDMAXw-1) {
         //error out of array
-        cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << endl;
+        std::cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << std::endl;
         exit(1);
     }
     int imin = (i - 1 + FIELDMAXh) % FIELDMAXh;
@@ -96,6 +97,10 @@ void SetLive(int x,int y,Cell** arr){
 void SetDead(int x,int y,Cell** arr){
     arr[x][y].cstate=0;
 }
+void ChangeCState(int x,int y,Cell** arr){
+    arr[x][y].cstate ^= 1;;
+}
+
 
 
 #endif //CONWAY_LOGIC_H
