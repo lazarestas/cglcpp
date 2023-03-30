@@ -408,23 +408,23 @@ CMakeFiles/conway.dir/main.cpp.obj: D:/Work/pycharm/cglcpp/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Config.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Clock.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Export.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Time.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Err.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/FileInputStream.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/InputStream.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Lock.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Mutex.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Sleep.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/String.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Utf.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Config.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Clock.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Export.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Time.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Err.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/FileInputStream.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/InputStream.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/NonCopyable.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Lock.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/MemoryInputStream.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Mutex.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Sleep.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/String.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Utf.hpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
@@ -433,65 +433,65 @@ CMakeFiles/conway.dir/main.cpp.obj: D:/Work/pycharm/cglcpp/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Utf.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Utf.inl \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/String.inl \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Thread.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Thread.inl \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocal.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.inl \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector2.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector2.inl \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector3.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector3.inl \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Clipboard.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Export.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Context.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/GlResource.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/ContextSettings.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Event.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Joystick.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Keyboard.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Mouse.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Sensor.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Touch.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/VideoMode.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Window.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/CircleShape.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Shape.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Drawable.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderStates.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Transform.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Rect.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Rect.inl \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Transformable.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/VertexArray.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Vertex.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Color.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/PrimitiveType.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/ConvexShape.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Font.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glyph.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Texture.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Image.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RectangleShape.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/View.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderTexture.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Shader.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glsl.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glsl.inl \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Text.hpp \
-  C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/String.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Thread.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Thread.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/ThreadLocal.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/ThreadLocalPtr.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/ThreadLocalPtr.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector2.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector2.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector3.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector3.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Clipboard.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Export.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Context.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/GlResource.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/ContextSettings.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Cursor.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Event.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Joystick.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Keyboard.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Mouse.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Sensor.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Touch.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/VideoMode.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Window.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/WindowHandle.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/WindowStyle.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/BlendMode.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Export.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/CircleShape.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Shape.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Drawable.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderStates.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Transform.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Rect.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Rect.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Transformable.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/VertexArray.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Vertex.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Color.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/PrimitiveType.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/ConvexShape.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Font.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Glyph.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Texture.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Image.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RectangleShape.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderTarget.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/View.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderTexture.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderWindow.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Shader.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Glsl.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Glsl.inl \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Sprite.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Text.hpp \
+  C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/VertexBuffer.hpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/thread \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/this_thread_sleep.h \
@@ -519,17 +519,19 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 D:/Work/pycharm/cglcpp/main.cpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Thread.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/rpcasync.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector2.inl:
+
 D:/Work/pycharm/cglcpp/logic.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Touch.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
 
@@ -543,15 +545,11 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 D:/Work/pycharm/cglcpp/include/color.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Shape.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clwbintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Config.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept:
 
@@ -563,8 +561,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/pstl_config.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Export.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavesintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h:
@@ -572,6 +568,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/locale.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Shape.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h:
 
@@ -595,13 +593,15 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/ContextSettings.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Rect.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/PrimitiveType.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/emmintrin.h:
 
@@ -624,8 +624,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/rpcsal.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Rect.inl:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
@@ -679,13 +677,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/errno.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderTexture.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Thread.inl:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/rpcnterr.h:
 
@@ -721,7 +713,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Texture.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/VertexArray.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h:
 
@@ -730,6 +722,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Mouse.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/refwrap.h:
 
@@ -759,11 +753,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Export.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mmintrin.h:
 
@@ -771,11 +761,15 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/VertexBuffer.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pmmintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/FileInputStream.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/prfchwintrin.h:
 
@@ -799,6 +793,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Drawable.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/ktmtypes.h:
@@ -809,19 +805,13 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/GlResource.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Glsl.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/wchar.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Rect.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Event.hpp:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector3.inl:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/wincrypt.h:
 
@@ -829,11 +819,11 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/View.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/combaseapi.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Text.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/fltwinerror.h:
 
@@ -841,11 +831,13 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/CircleShape.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Time.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Sensor.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/guiddef.h:
 
@@ -854,8 +846,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Joystick.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint:
 
@@ -885,13 +875,13 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderWindow.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pconfigintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
@@ -921,6 +911,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/NonCopyable.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string:
@@ -929,11 +921,11 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Export.hpp:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Keyboard.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Image.hpp:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Window.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/handleapi.h:
 
@@ -946,8 +938,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string_view:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/InputStream.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/nb30.h:
 
@@ -963,8 +953,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Cursor.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc:
@@ -975,15 +963,21 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Window.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/lzexpand.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Clipboard.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/oaidl.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/WindowHandle.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vlintrin.h:
 
@@ -1015,8 +1009,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector2.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc:
@@ -1033,8 +1025,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/VertexBuffer.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/fibersapi.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/windows.h:
@@ -1042,6 +1032,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/sdkddkver.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/excpt.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderTexture.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc:
 
@@ -1075,11 +1067,7 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_unicode.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Sleep.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/apiset.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/ConvexShape.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime:
 
@@ -1107,8 +1095,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/cetintrin.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/String.inl:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/clflushoptintrin.h:
@@ -1119,13 +1105,13 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lzcntintrin.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocal.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/lwpintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mwaitxintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/popcntintrin.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderStates.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/pkuintrin.h:
 
@@ -1136,8 +1122,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmi2intrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/rtmintrin.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/FileInputStream.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/psdk_inc/_xmitfile.h:
 
@@ -1151,11 +1135,13 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/waitpkgintrin.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/PrimitiveType.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector3.inl:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/wbnoinvdintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xsavecintrin.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Config.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xtestintrin.h:
 
@@ -1166,6 +1152,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/immintrin.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/xmmintrin.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Font.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512fintrin.h:
 
@@ -1185,6 +1173,10 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512dqintrin.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/WindowStyle.hpp:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/ThreadLocalPtr.inl:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/profileapi.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vldqintrin.h:
@@ -1195,7 +1187,11 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmiintrin.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/ThreadLocalPtr.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx512vbmivlintrin.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Sprite.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/avx5124vnniwintrin.h:
 
@@ -1251,6 +1247,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/pshpack4.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/pshpack2.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/pshpack8.h:
@@ -1271,6 +1269,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/interlockedapi.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/BlendMode.hpp:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/namedpipeapi.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/namespaceapi.h:
@@ -1278,8 +1278,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/processenv.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/processthreadsapi.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/VertexArray.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/processtopologyapi.h:
 
@@ -1313,8 +1311,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/wincon.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Vertex.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/winioctl.h:
@@ -1332,8 +1328,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/dde.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/ddeml.h:
-
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Lock.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/winefs.h:
 
@@ -1367,9 +1361,11 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/rpcndr.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/objbase.h:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/ContextSettings.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Utf.inl:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Thread.inl:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/objbase.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/wtypesbase.h:
 
@@ -1377,23 +1373,21 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/cguid.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/objidl.h:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Export.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Mouse.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/objidl.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/oleauto.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/urlmon.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector2.inl:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/oleidl.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/msxml.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Sensor.hpp:
-
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/propidl.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/GlResource.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/winspool.h:
 
@@ -1401,9 +1395,9 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/mcx.h:
 
-C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/imm.h:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/VideoMode.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/x86_64-w64-mingw32/include/imm.h:
 
 D:/Work/pycharm/cglcpp/console.h:
 
@@ -1413,78 +1407,84 @@ C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Clock.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/String.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Export.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Time.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Clock.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Sleep.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Err.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Err.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/NonCopyable.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/InputStream.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Lock.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glsl.inl:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/MemoryInputStream.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Mutex.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Mutex.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Utf.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/String.hpp:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Utf.hpp:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Utf.inl:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/String.inl:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.inl:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Thread.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/System/Vector3.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/ThreadLocal.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Clipboard.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector2.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Export.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/System/Vector3.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Context.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Context.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Keyboard.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Cursor.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/Touch.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Event.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/Joystick.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Window/VideoMode.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Transform.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/CircleShape.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Rect.inl:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Drawable.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Transformable.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RenderStates.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Vertex.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Transform.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Color.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Transformable.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/ConvexShape.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Color.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Glyph.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Font.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Texture.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glyph.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Image.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/RectangleShape.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RectangleShape.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Shader.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/RenderTarget.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Glsl.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/View.hpp:
 
-C:/Users/Stas/Downloads/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/include/SFML/Graphics/Text.hpp:
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Shader.hpp:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/include/SFML/Graphics/Glsl.inl:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/thread:

@@ -25,12 +25,12 @@ std::ostream& operator << (std::ostream &os, const Cell &p){
 
 
 void MenuControlLines();
-void PrintDaField(Cell**);
-void LoadFromFile(Cell**);
-void SaveToFile(Cell**);
+void PrintDaField(Cell**&);
+void LoadFromFile(Cell**&);
+void SaveToFile(Cell**&);
 
 
-void PrintDaField(Cell** arr){
+void PrintDaField(Cell**& arr){
 
     for (int i = 0; i<FIELDMAXh;i++){
         for (int j = 0; j<FIELDMAXw;j++){
@@ -39,7 +39,7 @@ void PrintDaField(Cell** arr){
         std::cout << std::endl;
     }
 }
-void LoadFromFile(Cell** Cellarr){
+void LoadFromFile(Cell**& Cellarr){
     std::ifstream source(R"(D:\Work\pycharm\cglcpp\cglsource.txt)");
     int cstate;
     if (source.is_open()){
@@ -56,7 +56,7 @@ void LoadFromFile(Cell** Cellarr){
     source.close();
     return;
 }
-void SaveToFile(Cell** Cellarr){
+void SaveToFile(Cell**& Cellarr){
     std::ofstream result(R"(D:\Work\pycharm\cglcpp\cglresult.txt)");
     if (result.is_open()){
         for (int i = 0; i<FIELDMAXh;i++){

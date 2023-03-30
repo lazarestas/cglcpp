@@ -25,11 +25,11 @@ struct Cell{
 
 Cell** CreateDefautArr();
 [[maybe_unused]] int poscalc(int, int);
-void Upvote(Cell**, int, int);
-void Stepcgl(Cell**);
-void SetLive(int,int,Cell**);
-void SetDead(int,int,Cell**);
-void ChangeCState(int,int,Cell**);
+void Upvote(Cell**&, int, int);
+void Stepcgl(Cell**&);
+void SetLive(int,int,Cell**&);
+void SetDead(int,int,Cell**&);
+void ChangeCState(int,int,Cell**&);
 
 Cell** CreateDefautArr(){
     Cell **Cellarr = new Cell*[FIELDMAXh];
@@ -47,7 +47,7 @@ Cell** CreateDefautArr(){
     return ((abs(x)-x)/2*max+x%max);
 }
 
-void Upvote(Cell** arr, int i, int j){
+void Upvote(Cell**& arr, int i, int j){
     if (i<0 or i>FIELDMAXh-1 or j<0 or j>FIELDMAXw-1) {
         //error out of array
         std::cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << std::endl;
@@ -68,7 +68,7 @@ void Upvote(Cell** arr, int i, int j){
 }
 
 
-void Stepcgl(Cell** arr){
+void Stepcgl(Cell**& arr){
     for (int i = 0; i<FIELDMAXh;i++){
         for (int j = 0; j<FIELDMAXw;j++){
             if (arr[i][j].cstate == 1) {
@@ -91,13 +91,13 @@ void Stepcgl(Cell** arr){
     }
 }
 
-void SetLive(int x,int y,Cell** arr){
+void SetLive(int x,int y,Cell**& arr){
     arr[x][y].cstate=1;
 }
-void SetDead(int x,int y,Cell** arr){
+void SetDead(int x,int y,Cell**& arr){
     arr[x][y].cstate=0;
 }
-void ChangeCState(int x,int y,Cell** arr){
+void ChangeCState(int x,int y,Cell**& arr){
     arr[x][y].cstate ^= 1;;
 }
 

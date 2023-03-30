@@ -1,9 +1,8 @@
-
+#pragma clang diagnostic push
 #include "logic.h"
 #include "console.h"
 #include <SFML/Graphics.hpp>
 #include <thread>
-#include <chrono>
 #include <string>
 
 void drawCells(sf::RenderWindow& window, Cell** cellarr)
@@ -63,56 +62,58 @@ int main() {
     window.setFramerateLimit(10);
 
     sf::Clock clock; // starts the clock
-//    auto begin = std::chrono::high_resolution_clock::now();
-//    auto end = std::chrono::high_resolution_clock::now();
-//    auto end1 = std::chrono::high_resolution_clock::now();
-//    auto elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
-
+    sf::Time elapsed1;
+    sf::Time elapsed2;
     while (window.isOpen()){
-        //clear window
-        clock.restart();
-        window.clear();
         // timer for frametime
-
-        //end = std::chrono::high_resolution_clock::now();
-        //elapsed = chrono::duration_cast<chrono::milliseconds>(end - begin).count();
-
-        //begin = std::chrono::high_resolution_clock::now();
+        clock.restart();
+        //clear window
+        window.clear();
 
         sf::Event event{};
 
         while (window.pollEvent(event)){
-            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S)
-                gamestate ^= 1;
-
-            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::E)
-                LoadFromFile(Cellarr);
-
-            if (event.type == sf::Event::MouseButtonPressed && gamestate == 0 && (event.mouseButton.button == sf::Mouse::Left || event.mouseButton.button ==sf::Mouse::Right))
-                ChangeCState(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
-
-            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::L)
-                SaveToFile(Cellarr);
-
-            if (event.type == sf::Event::Closed||sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
+            if (event.type == sf::Event::KeyPressed) {
+                switch (event.key.code) {
+                    case (sf::Keyboard::S):
+                        gamestate ^= 1;
+                    case (sf::Keyboard::E):
+                        LoadFromFile(Cellarr);
+                    case (sf::Keyboard::L):
+                        SaveToFile(Cellarr);
+                    case (sf::Keyboard::Escape):
+                        window.close();
+                }
+            }
+            if (event.type == sf::Event::MouseButtonPressed && gamestate == 0){
+                switch (event.mouseButton.button){
+                    case (sf::Mouse::Left):
+                        SetLive(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
+                    case (sf::Mouse::Right):
+                        SetDead(event.mouseButton.y/CELL_SIZE,event.mouseButton.x/CELL_SIZE,Cellarr);
+                }
+            }
+            if (event.type == sf::Event::Closed)
                 window.close();
         }
-        sf::Time elapsed1 = clock.restart();
+
+        // perf overlay
+        elapsed1 = clock.restart();
         text1.setString(std::to_string(elapsed1.asMilliseconds()));
         // drawing stuff
         drawCells(window,Cellarr);
         window.draw(text);
+        // perf overlay
         window.draw(text1);
         window.draw(text2);
 
-        // perf overlay
-        //end1 = std::chrono::high_resolution_clock::now();
-        //elapsed = chrono::duration_cast<chrono::milliseconds>(end1 - begin).count();
-
         //draw window
         window.display();
-        sf::Time elapsed2 = clock.restart();
+
+        // perf overlay
+        elapsed2 = clock.restart();
         text2.setString(std::to_string(elapsed2.asMilliseconds()));
+
         //update the field if the game is not in edit mode
         if (gamestate) Stepcgl(Cellarr);
     }
