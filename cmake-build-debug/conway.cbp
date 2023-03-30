@@ -82,10 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Work/pycharm/cglcpp/console.h">
+		<Unit filename="D:/Work/pycharm/cglcpp/include/console.h">
 			<Option target="conway"/>
 		</Unit>
-		<Unit filename="D:/Work/pycharm/cglcpp/logic.h">
+		<Unit filename="D:/Work/pycharm/cglcpp/include/logic.h">
+			<Option target="conway"/>
+		</Unit>
+		<Unit filename="D:/Work/pycharm/cglcpp/include/window.h">
 			<Option target="conway"/>
 		</Unit>
 		<Unit filename="D:/Work/pycharm/cglcpp/main.cpp">

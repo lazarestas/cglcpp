@@ -156,7 +156,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -170,12 +171,17 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "logic.h",
+			"path" : "include/logic.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "console.h",
+			"path" : "include/console.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/window.h",
 			"sourceGroupIndex" : 1
 		}
 	],

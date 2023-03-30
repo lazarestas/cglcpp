@@ -6,7 +6,7 @@
 #define CONWAY_CONSOLE_H
 
 #include <iostream>
-#include "include/color.hpp"
+#include "color.hpp"
 #include "logic.h"
 #include <fstream>
 
@@ -23,22 +23,16 @@ std::ostream& operator << (std::ostream &os, const Cell &p){
     }
 }
 
+//void PrintDaField(Cell**& arr){
+//
+//    for (int i = 0; i<FIELDMAXh;i++){
+//        for (int j = 0; j<FIELDMAXw;j++){
+//            std::cout << arr[i][j] << " ";
+//        }
+//        std::cout << std::endl;
+//    }
+//}
 
-void MenuControlLines();
-void PrintDaField(Cell**&);
-void LoadFromFile(Cell**&);
-void SaveToFile(Cell**&);
-
-
-void PrintDaField(Cell**& arr){
-
-    for (int i = 0; i<FIELDMAXh;i++){
-        for (int j = 0; j<FIELDMAXw;j++){
-            std::cout << arr[i][j] << " ";
-        }
-        std::cout << std::endl;
-    }
-}
 void LoadFromFile(Cell**& Cellarr){
     std::ifstream source(R"(D:\Work\pycharm\cglcpp\cglsource.txt)");
     int cstate;
@@ -54,8 +48,8 @@ void LoadFromFile(Cell**& Cellarr){
         exit(2);
     }
     source.close();
-    return;
 }
+
 void SaveToFile(Cell**& Cellarr){
     std::ofstream result(R"(D:\Work\pycharm\cglcpp\cglresult.txt)");
     if (result.is_open()){
@@ -70,15 +64,14 @@ void SaveToFile(Cell**& Cellarr){
         exit (3);
     }
     result.close();
-    return;
 }
 
-void MenuControlLines(){
-    std::cout << hue::aqua << "(S)tart(step) simulation" << std::endl;
-    std::cout << "(P)ause simulation"<< std::endl;
-    std::cout << "(L)oad simulation from file"<< std::endl;
-    std::cout << "S(a)ve simulation to file" << std::endl;
-    std::cout << "(E)xit" << hue::reset << std::endl;
-}
+//void MenuControlLines(){
+//    std::cout << hue::aqua << "(S)tart(step) simulation" << std::endl;
+//    std::cout << "(P)ause simulation"<< std::endl;
+//    std::cout << "(L)oad simulation from file"<< std::endl;
+//    std::cout << "S(a)ve simulation to file" << std::endl;
+//    std::cout << "(E)xit" << hue::reset << std::endl;
+//}
 
 #endif //CONWAY_CONSOLE_H

@@ -1,5 +1,6 @@
 CMakeFiles/conway.dir/main.cpp.obj: D:\Work\pycharm\cglcpp\main.cpp \
- D:\Work\pycharm\cglcpp\logic.h D:\Work\pycharm\cglcpp\include/color.hpp \
+ D:\Work\pycharm\cglcpp\include/logic.h \
+ D:\Work\pycharm\cglcpp\include/color.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/utility \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -398,12 +399,14 @@ CMakeFiles/conway.dir/main.cpp.obj: D:\Work\pycharm\cglcpp\main.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/winsvc.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/mcx.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/imm.h \
- D:\Work\pycharm\cglcpp\console.h \
+ D:\Work\pycharm\cglcpp\include/console.h \
+ D:\Work\pycharm\cglcpp\include/logic.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
+ D:\Work\pycharm\cglcpp\include/window.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System.hpp \

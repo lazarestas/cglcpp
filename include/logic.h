@@ -5,31 +5,35 @@
 #ifndef CONWAY_LOGIC_H
 #define CONWAY_LOGIC_H
 
-#include "include/color.hpp"
+#include "color.hpp"
 #include <iostream>
 
 
+const int CELL_SIZE = 2; // Size of each cell in window
+const int FRAMETHIC =2*CELL_SIZE;
 //let's fix the field dimensions 4 now
-const int FIELDMAXh = 200; // size of game field
+const int FIELDMAXh = 300; // size of game field
 const int FIELDMAXw = 300;
-const int CELL_SIZE = 4; // Size of each cell in window
+const int BOTUIH = 40;
+const int WINDOWw = (FIELDMAXw)*CELL_SIZE+2*FRAMETHIC;
+const int WINDOWh = (FIELDMAXh)*CELL_SIZE+2*FRAMETHIC+BOTUIH;
 
 //Cell is the smallest element on the field only 4 bytes kinda cool
 struct Cell{
     //state of cell: 0 is dead 1 is alive
-    int cstate:2;
+    int cstate:4;
     //represents the count of neighboring cells alive min 0 FIELDMAX 8 then 4 bits necessary
     int ccount:4;
 
 };
 
-Cell** CreateDefautArr();
-[[maybe_unused]] int poscalc(int, int);
-void Upvote(Cell**&, int, int);
-void Stepcgl(Cell**&);
-void SetLive(int,int,Cell**&);
-void SetDead(int,int,Cell**&);
-void ChangeCState(int,int,Cell**&);
+//Cell** CreateDefautArr();
+//[[maybe_unused]] int poscalc(int, int);
+//void Upvote(Cell**&, int, int);
+//void Stepcgl(Cell**&);
+//void SetLive(int,int,Cell**&);
+//void SetDead(int,int,Cell**&);
+//void ChangeCState(int,int,Cell**&);
 
 Cell** CreateDefautArr(){
     Cell **Cellarr = new Cell*[FIELDMAXh];
@@ -48,11 +52,9 @@ Cell** CreateDefautArr(){
 }
 
 void Upvote(Cell**& arr, int i, int j){
-    if (i<0 or i>FIELDMAXh-1 or j<0 or j>FIELDMAXw-1) {
-        //error out of array
-        std::cout << dye::on_red("LOL YOU SOMEHOW ESCAPED THE ARRAY HIIII") << std::endl;
+    //error out of array
+    if (i<0 or i>FIELDMAXh-1 or j<0 or j>FIELDMAXw-1)
         exit(1);
-    }
     int imin = (i - 1 + FIELDMAXh) % FIELDMAXh;
     int imax = (i + 1) % FIELDMAXh;
     int jmin = (j - 1 + FIELDMAXw) % FIELDMAXw;
@@ -92,13 +94,21 @@ void Stepcgl(Cell**& arr){
 }
 
 void SetLive(int x,int y,Cell**& arr){
-    arr[x][y].cstate=1;
+    if (x>=0 && x<=FIELDMAXh-1 && y>=0 && y<=FIELDMAXw-1)
+        arr[x][y].cstate=1;
+    else
+        std::cout << "frame click" << std::endl;
+
 }
 void SetDead(int x,int y,Cell**& arr){
-    arr[x][y].cstate=0;
+    if (x>=0 && x<=FIELDMAXh-1 && y>=0 && y<=FIELDMAXw-1)
+        arr[x][y].cstate=0;
+    else
+        std::cout << "frame click" << std::endl;
 }
-void ChangeCState(int x,int y,Cell**& arr){
-    arr[x][y].cstate ^= 1;;
+
+[[maybe_unused]] void ChangeCState(int x,int y,Cell**& arr){
+    arr[x][y].cstate ^= 1;
 }
 
 
