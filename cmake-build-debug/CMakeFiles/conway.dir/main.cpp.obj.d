@@ -399,10 +399,64 @@ CMakeFiles/conway.dir/main.cpp.obj: D:\Work\pycharm\cglcpp\main.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/winsvc.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/mcx.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/imm.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/thread \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/this_thread_sleep.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Clock.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Export.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Config.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Time.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RectangleShape.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Export.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Shape.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Drawable.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderStates.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/BlendMode.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Transform.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Rect.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector2.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector2.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Rect.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Transformable.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/VertexArray.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Vertex.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Color.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderWindow.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderTarget.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/View.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/NonCopyable.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Image.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Window.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/ContextSettings.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Cursor.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Export.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/GlResource.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/VideoMode.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/WindowHandle.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/WindowStyle.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/String.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Utf.hpp \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Utf.inl \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/String.inl \
  D:\Work\pycharm\cglcpp\include/console.h \
  D:\Work\pycharm\cglcpp\include/logic.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
@@ -410,91 +464,37 @@ CMakeFiles/conway.dir/main.cpp.obj: D:\Work\pycharm\cglcpp\main.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Config.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Clock.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Export.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Time.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Err.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/FileInputStream.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/InputStream.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/NonCopyable.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Lock.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/MemoryInputStream.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Mutex.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Sleep.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/String.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Utf.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/locale \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets_nonio.tcc \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_conv.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unique_ptr.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Utf.inl \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stream_iterator.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/String.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Thread.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Thread.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/ThreadLocal.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/ThreadLocalPtr.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/ThreadLocalPtr.inl \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector2.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector2.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector3.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/System/Vector3.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Clipboard.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Export.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Context.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/GlResource.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/ContextSettings.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Cursor.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Event.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Joystick.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Keyboard.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Mouse.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Sensor.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Touch.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/VideoMode.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/Window.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/WindowHandle.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Window/WindowStyle.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/BlendMode.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Export.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/CircleShape.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Shape.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Drawable.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderStates.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Transform.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Rect.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Rect.inl \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Transformable.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/VertexArray.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Vertex.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Color.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/PrimitiveType.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/ConvexShape.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Font.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Glyph.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Texture.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Image.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RectangleShape.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderTarget.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/View.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderTexture.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/RenderWindow.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Shader.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Glsl.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Glsl.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Sprite.hpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/Text.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/VertexBuffer.hpp \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/thread \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_thread.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/this_thread_sleep.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/include/SFML/Graphics/VertexBuffer.hpp

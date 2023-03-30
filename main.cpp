@@ -16,15 +16,8 @@ int main() {
     // Declare and load a font
     sf::Font font;
     if (!font.loadFromFile(R"(D:\Work\pycharm\cglcpp\include\SF-Pro.ttf)")) return 4;
-
     // start/stop iterator
     unsigned int gamestate = 1;
-
-    // text for controls
-    sf::Text text("e-restart esc-exit s-edit l-savetofile", font, 20);
-    text.setFont(font);
-    text.setFillColor(sf::Color::Black);
-    text.setPosition((FIELDMAXw * CELL_SIZE / 2) - 150, FIELDMAXh * CELL_SIZE - 20);
 
     // text1,2 is frametime measure
     sf::Text text1("", font, 20), text2("", font, 20);
@@ -32,29 +25,36 @@ int main() {
     text2.setFont(font);
     text1.setFillColor(sf::Color::Black);
     text2.setFillColor(sf::Color::Black);
-    text.setPosition(5, WINDOWh - 25);
     text1.setPosition(5, WINDOWh - 45);
     text2.setPosition(30, WINDOWh - 45);
     // window
+    sf::ContextSettings settings;
+    settings.antialiasingLevel = 0;
     sf::RenderWindow window(
             sf::VideoMode(
                     WINDOWw,
                     WINDOWh),
             "conway`s game of life",
-            sf::Style::Default);
+            sf::Style::Default,
+            settings);
     //icon
     sf::Image icon;
     if (!icon.loadFromFile(R"(D:\Work\pycharm\cglcpp\crap\astolfo.png)"))
         return 5;
     window.setIcon(200, 200, icon.getPixelsPtr()); //fucking hardcoded width/heigth because of stupid sfml dll differences
-    window.setFramerateLimit(10);
+    window.setFramerateLimit(FRAMERATE);
 
     sf::Clock clock; // starts the clock
-    sf::Time elapsed1;
-    sf::Time elapsed2;
+//    sf::Time elapsed1;
+    sf::Time elapsed2,elapsedmax,elapsedmax2;
+    //cell rectangle 4 drawcell
+    sf::RectangleShape cellrect(sf::Vector2f(CELL_SIZE, CELL_SIZE));
+    cellrect.setFillColor(sf::Color::Green);
+    // create threads and assign ranges to each thread
     while (window.isOpen()){
         // timer for frametime
         clock.restart();
+
         //clear window
         window.clear();
 
@@ -64,13 +64,21 @@ int main() {
             if (event.type == sf::Event::KeyPressed) {
                 switch (event.key.code) {
                     case (sf::Keyboard::S):
-                        gamestate ^= 1; break;
+                        gamestate ^= 1;
+                        break;
                     case (sf::Keyboard::E):
-                        LoadFromFile(Cellarr); break;
+                        LoadFromFile(Cellarr);
+                        break;
                     case (sf::Keyboard::L):
-                        SaveToFile(Cellarr); break;
+                        SaveToFile(Cellarr);
+                        break;
+                    case (sf::Keyboard::R):
+                        elapsedmax = sf::microseconds(0);
+                        elapsedmax2 = sf::microseconds(0);
+                        break;
                     case (sf::Keyboard::Escape):
-                        window.close(); break;
+                        window.close();
+                        break;
                 }
             }
             if (event.type == sf::Event::MouseButtonPressed && gamestate == 0){
@@ -88,12 +96,15 @@ int main() {
         }
 
         // perf overlay
-        elapsed1 = clock.restart();
-        text1.setString(std::to_string(elapsed1.asMilliseconds()));
+//        elapsed1 = clock.restart();
+//        text1.setString(std::to_string(elapsed1.asMilliseconds()));
+        //update the field if the game is not in edit mode
+        if (gamestate) Stepcgl(Cellarr,window,elapsedmax);
+
         // drawing stuff
-        drawCells(window,Cellarr);
+        drawCells(window,Cellarr,cellrect);
         drawUIbottom(window);
-        window.draw(text);
+
         // perf overlay
         window.draw(text1);
         window.draw(text2);
@@ -102,11 +113,13 @@ int main() {
         window.display();
 
         // perf overlay
+        text2.setString(std::to_string(elapsed2.asMicroseconds()));
         elapsed2 = clock.restart();
-        text2.setString(std::to_string(elapsed2.asMilliseconds()));
+        if (elapsedmax2<elapsed2){
+            elapsedmax2 = elapsed2;
+            std::cout << "max frame time " << elapsedmax2.asMicroseconds() << std::endl;
+        }
 
-        //update the field if the game is not in edit mode
-        if (gamestate) Stepcgl(Cellarr);
     }
     //free the allocated memory after competion
     for (int i=0;i<FIELDMAXh;i++){

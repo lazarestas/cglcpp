@@ -7,7 +7,7 @@
 #include <SFML/Graphics.hpp>
 #include "logic.h"
 
-void drawCells(sf::RenderWindow& window, Cell** cellarr)
+void drawCells(sf::RenderWindow& window, Cell** cellarr,sf::RectangleShape& cell)
 {
     // Loop through each cell in the array
     for (int i = 0; i < FIELDMAXh; i++) {
@@ -15,9 +15,7 @@ void drawCells(sf::RenderWindow& window, Cell** cellarr)
             // Check if the cell is alive
             if (cellarr[i][j].cstate==1) {
                 // Create a rectangle shape
-                sf::RectangleShape cell(sf::Vector2f(CELL_SIZE, CELL_SIZE));
                 cell.setPosition(j * CELL_SIZE+FRAMETHIC, i * CELL_SIZE+FRAMETHIC);
-                cell.setFillColor(sf::Color::Green);
                 // Draw the rectangle to the window
                 window.draw(cell);
             }
@@ -44,5 +42,15 @@ void drawUIbottom(sf::RenderWindow& window)
 
     // Draw the bottom bar to the window
     window.draw(bottomBar);
+    // text for controls
+    sf::Font font;
+    if (!font.loadFromFile(R"(D:\Work\pycharm\cglcpp\include\SF-Pro.ttf)")) exit(4);
+    sf::Text text("e-restart esc-exit s-edit l-savetofile", font, 20);
+    text.setFont(font);
+    text.setFillColor(sf::Color::Black);
+    text.setPosition((FIELDMAXw * CELL_SIZE / 2) - 150, FIELDMAXh * CELL_SIZE - 20);
+    text.setPosition(5, WINDOWh - 25);
+    window.draw(text);
+
 }
 #endif //CONWAY_WINDOW_H
