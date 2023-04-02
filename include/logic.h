@@ -5,7 +5,6 @@
 #ifndef CONWAY_LOGIC_H
 #define CONWAY_LOGIC_H
 
-#include "color.hpp"
 #include <iostream>
 #include <thread>
 #include <SFML/System/Clock.hpp>
@@ -32,13 +31,6 @@ struct Cell{
 
 };
 
-//Cell** CreateDefautArr();
-//[[maybe_unused]] int poscalc(int, int);
-//void Upvote(Cell**&, int, int);
-//void Stepcgl(Cell**&);
-//void SetLive(int,int,Cell**&);
-//void SetDead(int,int,Cell**&);
-//void ChangeCState(int,int,Cell**&);
 
 Cell** CreateDefautArr(){
     Cell **Cellarr = new Cell*[FIELDMAXh];
@@ -74,7 +66,7 @@ void Upvote(Cell**& arr, int i, int j){
     arr[imax][jmax].ccount++;
 }
 
-void MultiThreadedUpvote(int start_i, int end_i, Cell**& arr) {
+[[maybe_unused]] void MultiThreadedUpvote(int start_i, int end_i, Cell**& arr) {
     for (int i = start_i; i < end_i; i++) {
         for (int j = 0; j < FIELDMAXw; j++) {
             if (arr[i][j].cstate == 1) {
@@ -99,7 +91,7 @@ void MultiThreadedRender(int start_i, int end_i, Cell**& arr) {
     }
 }
 
-void Stepcgl(Cell**& arr, sf::RenderWindow& window,sf::Time& elapsedmax){
+void Stepcgl(Cell**& arr,sf::Time& elapsedmax){
     sf::Clock clock;
     clock.restart();
     std::thread threads[NUM_THREADS];

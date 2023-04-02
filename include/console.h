@@ -5,22 +5,16 @@
 #ifndef CONWAY_CONSOLE_H
 #define CONWAY_CONSOLE_H
 
-#include <iostream>
-#include "color.hpp"
 #include "logic.h"
+#include <iostream>
 #include <fstream>
 
 
 //override << operator to output Cell cstate
 std::ostream& operator << (std::ostream &os, const Cell &p){
-    switch (p.cstate) {
-        case 0:
+    if (p.cstate)
             return os << p.cstate;
-        case 1:
-            return os << dye::red(p.cstate);
-        default:
-            return os;
-    }
+    return os;
 }
 
 //void PrintDaField(Cell**& arr){
@@ -67,11 +61,11 @@ void SaveToFile(Cell**& Cellarr){
 }
 
 //void MenuControlLines(){
-//    std::cout << hue::aqua << "(S)tart(step) simulation" << std::endl;
+//    std::cout  << "(S)tart(step) simulation" << std::endl;
 //    std::cout << "(P)ause simulation"<< std::endl;
 //    std::cout << "(L)oad simulation from file"<< std::endl;
 //    std::cout << "S(a)ve simulation to file" << std::endl;
-//    std::cout << "(E)xit" << hue::reset << std::endl;
+//    std::cout << "(E)xit" << std::endl;
 //}
 
 #endif //CONWAY_CONSOLE_H
